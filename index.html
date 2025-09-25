@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mega Eletrônicos - Revendedor Autorizado Intelbras</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-397950840"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-397950840');
+    </script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,12 +50,15 @@
 </head>
 <body class="text-gray-200">
 
+    <!-- Cabeçalho -->
     <header id="header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-black/30 backdrop-blur-md">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-20">
+                <!-- Logo -->
                 <a href="#" class="flex-shrink-0">
                     <img class="h-10 w-auto" src="https://i.ibb.co/dJxYFL18/MEGA-ELETR-NICOS-LOGO-branca.png" alt="Mega Eletrônicos Logo">
                 </a>
+                <!-- Navegação Desktop -->
                 <nav class="hidden md:flex md:items-center md:space-x-8">
                     <a href="#cftv" class="text-gray-300 hover:text-emerald-400 transition-colors duration-300">CFTV</a>
                     <a href="#alarmes" class="text-gray-300 hover:text-emerald-400 transition-colors duration-300">Alarmes</a>
@@ -54,11 +66,13 @@
                     <a href="#sobre" class="text-gray-300 hover:text-emerald-400 transition-colors duration-300">Sobre Nós</a>
                     <a href="#contato" class="text-gray-300 hover:text-emerald-400 transition-colors duration-300">Contato</a>
                 </nav>
+                <!-- CTA Desktop -->
                 <div class="hidden md:block">
-                    <a href="https://wa.me/5541992558504?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informações." target="_blank" class="inline-block bg-gradient-green-dark text-black font-bold py-2 px-5 rounded-lg shadow-lg shadow-emerald-500/20 hover:scale-105 transform transition-transform duration-300">
+                    <a href="https://wa.me/5541992558504?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20falar%20com%20um%20especialista." target="_blank" class="inline-block bg-gradient-green-dark text-black font-bold py-2 px-5 rounded-lg shadow-lg shadow-emerald-500/20 hover:scale-105 transform transition-transform duration-300">
                         Fale Conosco
                     </a>
                 </div>
+                <!-- Menu Mobile (Hamburguer) -->
                 <div class="md:hidden">
                     <button id="mobile-menu-button" class="text-gray-300 hover:text-emerald-400 focus:outline-none">
                         <i data-lucide="menu" class="w-6 h-6"></i>
@@ -66,6 +80,7 @@
                 </div>
             </div>
         </div>
+        <!-- Menu Mobile (Conteúdo) -->
         <div id="mobile-menu" class="hidden md:hidden">
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-gray-900/80">
                 <a href="#cftv" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-emerald-400 hover:bg-gray-800">CFTV</a>
@@ -74,7 +89,7 @@
                 <a href="#sobre" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-emerald-400 hover:bg-gray-800">Sobre Nós</a>
                 <a href="#contato" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-emerald-400 hover:bg-gray-800">Contato</a>
                 <div class="p-4">
-                     <a href="https://wa.me/5541992558504?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informações." target="_blank" class="w-full text-center block bg-gradient-green-dark text-black font-bold py-2 px-5 rounded-lg shadow-lg shadow-emerald-500/20 hover:scale-105 transform transition-transform duration-300">
+                     <a href="https://wa.me/5541992558504?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20falar%20com%20um%20especialista." target="_blank" class="w-full text-center block bg-gradient-green-dark text-black font-bold py-2 px-5 rounded-lg shadow-lg shadow-emerald-500/20 hover:scale-105 transform transition-transform duration-300">
                         Fale Conosco
                     </a>
                 </div>
@@ -83,6 +98,7 @@
     </header>
 
     <main>
+        <!-- Seção Hero -->
         <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
              <div class="absolute inset-0 bg-black opacity-60 z-10"></div>
              <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover z-0">
@@ -98,16 +114,17 @@
                     Somos revendedores autorizados <span class="font-bold text-white">Intelbras</span>. Aqui você encontra a linha completa de produtos em CFTV, alarmes e automação para proteger o que mais importa.
                 </p>
                 <div class="mt-10 flex flex-col sm:flex-row justify-center items-center gap-4">
-                    <a href="https://wa.me/5541992558504?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20de%20CFTV." target="_blank" class="w-full sm:w-auto inline-block bg-gradient-green-dark text-black font-bold py-4 px-8 rounded-lg text-lg shadow-lg shadow-emerald-500/30 hover:scale-105 transform transition-transform duration-300">
+                    <a href="https://wa.me/5541992558504?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20de%20CFTV." target="_blank" class="w-full sm:w-auto inline-block bg-gradient-green-dark text-black font-bold py-4 px-8 rounded-lg text-lg shadow-lg shadow-emerald-500/30 hover:scale-105 transform transition-transform duration-300">
                         Ver Produtos de CFTV
                     </a>
-                    <a href="https://wa.me/5541992558504?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20saber%20o%20endereço%20e%20horário%20de%20funcionamento." target="_blank" class="w-full sm:w-auto inline-block bg-transparent border-2 border-emerald-400 text-emerald-400 font-bold py-3.5 px-8 rounded-lg text-lg hover:bg-emerald-400 hover:text-black transform transition-colors duration-300">
+                    <a href="https://wa.me/5541992558504?text=Olá!%20Gostaria%20de%20saber%20o%20endereço%20da%20loja." target="_blank" class="w-full sm:w-auto inline-block bg-transparent border-2 border-emerald-400 text-emerald-400 font-bold py-3.5 px-8 rounded-lg text-lg hover:bg-emerald-400 hover:text-black transform transition-colors duration-300">
                         Visite Nossa Loja
                     </a>
                 </div>
             </div>
         </section>
 
+        <!-- Seção dedicada: CFTV -->
         <section id="cftv" class="py-20 lg:py-28">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="grid lg:grid-cols-2 gap-12 items-center">
@@ -141,6 +158,7 @@
             </div>
         </section>
 
+        <!-- Seção dedicada: Alarmes -->
         <section id="alarmes" class="py-20 lg:py-28 bg-black">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="grid lg:grid-cols-2 gap-12 items-center">
@@ -161,7 +179,7 @@
                             </div>
                            <div class="card-bg rounded-lg overflow-hidden flex flex-col">
                                 <div class="h-48 flex-grow flex items-center justify-center p-4">
-                                    <img src="https://images.pexels.com/photos/29292011/pexels-photo-29292011.jpeg" alt="Sensor de Presença" class="max-h-full max-w-full object-contain">
+                                    <img src="https://images.pexels.com/photos/29292011/jpeg" alt="Sensor de Presença" class="max-h-full max-w-full object-contain">
                                 </div>
                                 <div class="p-3 text-center bg-black/20 border-t border-white/10">
                                     <h4 class="font-semibold text-white text-sm">Sensores de Presença</h4>
@@ -174,6 +192,7 @@
             </div>
         </section>
         
+        <!-- Seção dedicada: Casa Conectada -->
         <section id="casa-conectada" class="py-20 lg:py-28">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="grid lg:grid-cols-2 gap-12 items-center">
@@ -198,7 +217,7 @@
                                 </div>
                             </div>
                         </div>
-                         <a href="https://wa.me/5541992558504?text=Olá!%20Gostaria%20de%20descobrir%20mais%20sobre%20automação%20residencial." target="_blank" class="mt-8 inline-block bg-emerald-500 text-black font-bold py-3 px-6 rounded-lg hover:bg-emerald-600 transition-colors">Descobrir automação residencial</a>
+                         <a href="https://wa.me/5541992558504?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20automação%20residencial." target="_blank" class="mt-8 inline-block bg-emerald-500 text-black font-bold py-3 px-6 rounded-lg hover:bg-emerald-600 transition-colors">Descobrir automação residencial</a>
                     </div>
                     <div class="fade-in" style="transition-delay: 200ms;">
                         <img src="https://images.pexels.com/photos/1072851/pexels-photo-1072851.jpeg" class="rounded-xl shadow-2xl shadow-black/50 w-full h-full object-cover" alt="Casa Conectada" loading="lazy" decoding="async">
@@ -207,6 +226,7 @@
             </div>
         </section>
 
+        <!-- Seção Sobre / Intelbras -->
         <section id="sobre" class="py-20 lg:py-28 bg-black">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="max-w-4xl mx-auto text-center fade-in">
@@ -219,6 +239,7 @@
             </div>
         </section>
         
+        <!-- Seção: Diferenciais -->
         <section id="diferenciais" class="py-20 lg:py-28">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center mb-16 fade-in">
@@ -259,6 +280,7 @@
         </section>
 
 
+        <!-- Seção CTA Final -->
         <section id="contato" class="bg-black py-20 lg:py-28">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="card-bg rounded-xl p-8 md:p-12 lg:p-16 text-center fade-in">
@@ -277,6 +299,7 @@
         </section>
     </main>
 
+    <!-- Rodapé -->
     <footer class="bg-black border-t border-white/10">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
@@ -287,9 +310,8 @@
                 <div>
                     <h4 class="font-bold text-white tracking-wider uppercase">Contato</h4>
                     <ul class="mt-4 space-y-2 text-sm text-gray-400">
-                        <li><a href="https://wa.me/5541992558504?text=Olá!%20Encontrei%20o%20contato%20no%20site%20e%20gostaria%20de%20mais%20informações." target="_blank" class="hover:text-emerald-400">contato@megaeletronicos.com</a></li>
-                        <li><a href="https://wa.me/5541992558504?text=Olá!%20Encontrei%20o%20telefone%20no%20site%20e%20gostaria%20de%20entrar%20em%20contato." target="_blank" class="hover:text-emerald-400">(41) 99255-8504</a></li>
-                        <li><span> Rua 24 de Maio, 327, Centro - Curitiba - PR</span></li>
+                        <li><a href="tel:+554130240022" class="hover:text-emerald-400">(41) 3024-0022</a></li>
+                        <li><span>Endereço da sua Loja, Nº, Bairro</span></li>
                     </ul>
                 </div>
                  <div>
@@ -301,7 +323,7 @@
                 </div>
             </div>
             <div class="mt-8 border-t border-white/10 pt-8 text-center text-sm text-gray-500">
-                <p>&copy; 2025 Mega Eletrônicos. Todos os direitos reservados.</p>
+                <p>&copy; 2024 Mega Eletrônicos. Todos os direitos reservados.</p>
             </div>
         </div>
     </footer>
@@ -359,3 +381,4 @@
     </script>
 </body>
 </html>
+
